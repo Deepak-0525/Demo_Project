@@ -6,23 +6,28 @@
         <style>
         table, th, td {
             text-align: center;
-
+            border-collapse: collapse;
             border: 1px solid black;
-          }
+            }
+          th:nth-child(even),td:nth-child(even) {
+            background-color: #09dfdf;
+            }           
           h1{
             text-align: center;
             background-color:rgb(243, 239, 239);
             color: rgb(14, 3, 3);
             
-          }
-          </style>
+            }
+        </style>
     </head>
     <body>
         <h1 style="font-size: 40px;" >Student Details </h1>
 
     
         <table width="500">
+            <tr><th colspan="4"> Student DATA</th></tr>
             <tr>
+        
                 <th>SNO</th>
                 <th>NAME</th>
                 <th>REGNO</th>
