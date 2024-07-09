@@ -4,20 +4,24 @@
   ],
   "hints": {
     "meta-viewport": "off",
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off",
+        "image-alt": "off"
+      }
+    ],
     "axe/language": [
       "default",
       {
         "html-has-lang": "off"
       }
     ],
-    "no-inline-styles": "off",
-    "axe/text-alternatives": [
+    "axe/name-role-value": [
       "default",
       {
-        "document-title": "off"
+        "link-name": "off"
       }
-    ],
-    "disown-opener": "off",
-    "meta-charset-utf-8": "off"
+    ]
   }
 }
