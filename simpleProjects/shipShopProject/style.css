@@ -1,0 +1,82 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-image:url(Bgimg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+nav{
+    
+    color: aliceblue;
+    padding: 15px;
+    
+}
+li,ul,h1{
+    display: inline;
+    margin-left: 15px;
+    color: rgb(212, 179, 68);
+}
+ul{
+    margin-left: 65%;
+} 
+li:hover{
+    color: white;
+}
+li{
+    cursor: pointer;
+}
+input{
+    padding: 15px;
+    width: 60%;
+    font-size: 15px;
+    color: white;
+    border-color: rgb(240, 214, 131);
+}
+
+.searchbar{
+    text-align: center;
+    padding: 50px;
+}
+
+.box{
+    margin-left: 10px;
+    text-align: center;
+    border-color:  rgb(182, 164, 104);
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    width: 230px;
+    color: antiquewhite;
+    
+}
+.box:hover{
+    color: brown;
+    cursor: pointer;
+}
+
+.about{
+    margin-left: 40px;
+    text-align: left;
+    margin-top: 30px;
+    border-style: solid;
+    border-style: hidden;
+    width: 40%;
+    color:  rgb(182, 164, 104);
+}
+.contact{
+    margin-top: 40px;
+    text-align: center;
+    color:   rgb(192, 169, 94);
+    
+}
+.para1{
+    margin-top: 40px;
+}
