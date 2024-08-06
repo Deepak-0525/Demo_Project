@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>This is Obiect practice </h1>
+        <p id="demo"></p>
+        <script>
+            const person = {
+                firstname: "john",
+                lastname: "doe", 
+                age:50
+            };
+
+            const x = person;
+            x.age=20;
+
+            document.getElementById("demo").innerHTML = person.firstname + " is " + person.age + " year old ";
+        </script>
+    </body>
+</html>

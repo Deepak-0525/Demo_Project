@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>JavaScript Operator</title>
+		<style>
+			.border{
+				border:2px solid black;
+				display:inline-block;
+				padding:10px;
+				margin-left:40%;
+				
+			}
+		</style>
+	</head>
+	<body>
+		<center>
+		<h1>Student Mark Sheet</h1>
+		</center>
+		<div class="border">
+			<script>
+				n = "Deepak";
+				regno = 6224;
+				age = 21;
+				t = 90;
+				e = 80;
+				m = 70;
+				s = 95;
+				ss = 75;
+				tl = (t + e + m + s + ss);
+				avg = tl/5;
+				year = 2000;
+				document.write("Name : "+n +"<br>");
+				document.write("Reg Num : "+regno +"<br>");
+				document.write("Age : "+age +"<br>");
+				document.write("Tamil          : "+t +"<br>");
+				document.write("English        : "+e +"<br>");
+				document.write("Maths          : "+m +"<br>");
+				document.write("Science        : "+s +"<br>");
+				document.write("Social Science : "+ss +"<br>");
+				document.write("Your Total is : "+tl+"<br>");
+				document.write("Your Average is : "+avg+"<br>");
+				
+				if(35 <= avg){
+					document.write("Passed in All Subject & Percentage is : "+ avg+"%"+"<br>");
+				}
+				else{
+					document.write("Fail & Percentage is : "+ avg+"<br>");
+				}
+				// age below 18 or above 18
+				if(age>=18){
+					document.write("Major! Your are "+ age +" Old...!"+"<br>");
+				}
+				else{
+					document.write("Minor! Your are "+ age +" Old...!"+"<br>");
+				}
+				// find leap 
+				if(year % 4 == 0){
+					document.write("It's Leap Year"+"<br>");
+				}
+				else{
+					document.write("It's  not a Leap Year"+"<br>");
+				}
+					
+				
+			</script>
+		</div>
+	</body>
+</html>

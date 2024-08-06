@@ -1,0 +1,493 @@
+body{
+	overflow-x:hidden;
+}
+.position{
+	background-color:white; 
+	position:sticky;
+	z-index:5;	
+	top:0;
+	padding:5px;
+	box-shadow:0 2px 5px gray;
+}
+.logo{
+	margin-left:150px;
+	margin-top:50px;
+}
+.symbol{
+	margin-left:-240px;
+}
+.t1{
+	margin-left:400px;
+	margin-top:-120px;
+}
+td{
+	padding:5px;
+}
+.bar{
+	padding:9px;
+	width:240px;
+	border:none;
+	outline:none;
+	border-radius:3px;
+	box-shadow:0px 0px 2px gray;
+	background-color:#ededed;
+}
+.bar:hover{
+	border:none;
+}
+.txt{
+	text-decoration:none;
+	font-weight:800px;
+}
+.emer{
+	padding:9px;
+	width:150px;
+	color:white;
+	text-decoration:none;
+	background-color:#ee2d68;
+	border:solid 1px #ee2d68;
+	border-radius:3px;	
+	
+}
+.book{
+	padding:9px;
+	width:150px;
+	color:#ee2d68;
+	text-decoration:none;
+	background-color:white;
+	border:solid 1px #ee2d68;
+	border-radius:3px;	
+}
+.book:hover{
+	color:black;
+}
+.btn{
+	padding:9px;
+	width:150px;
+	border:solid 1px #ee2d68;
+	background-color:white;
+	color:#ee2d68;
+	border-radius:3px;
+}
+.btn:hover{
+	color:white;
+	background-color:#ee2d68;
+
+}
+hr{
+	margin-left:400px;
+	margin-top:20px;
+	margin-right:100px;
+}
+ul{
+	margin-left:350px;
+	margin-top:10px;
+	text-decoration:none;
+	
+}
+li{
+	color:#932061;
+	padding:10px;
+	display:inline-block;
+	font-family: "Poppins", sans-serif;
+	font-size:15px;
+	cursor:pointer;
+}
+li:hover{
+	text-decoration:underline #ee2d68;
+}
+.dsp-btn{
+	margin-left:200px;
+	margin-top:-84px;
+	padding:20px;
+	color:white;
+}
+.dsp-up1{
+	padding:23px;
+	width:30%;
+	word-spacing:7px;
+	font-size:1em;
+	color:white;
+	background-color:#962067;
+	border:none;
+}
+.dsp-up1:hover{
+	background-color:gray
+}
+.dsp-up2{
+	padding:23px;
+	margin-left:-5px;
+	width:30%;
+	word-spacing:7px;
+	font-size:1em;
+	color:white;
+	background-color:#c22768;
+	border:none;
+}
+.dsp-up2:hover{
+	background-color:gray
+}
+.dsp-up3{
+	padding:23px;
+	margin-left:-5px;
+	width:30%;
+	word-spacing:7px;
+	font-size:1em;
+	color:white;
+	background-color:#f26522;
+	border:none;
+}
+.dsp-up3:hover{
+	background-color:gray
+}
+.location{
+	margin-left:220px;
+	margin-top:60px;
+}
+.loc-txt{
+	margin-left:200px;
+	font-family: "Poppins", sans-serif;
+	font-weight:500;
+	font-size:27px;
+}
+.bg-img{
+	margin-top:-20px;
+	background:#f5f5f5 url(https://www.kauveryhospital.com/wp-content/themes/KauveryHospital/images/expert-chart.png) no-repeat 12% bottom;
+	padding:70px 0px;
+	min-height:550px;
+}
+.row1{
+	margin-left:500px;
+	margin-top:-250px;
+	display:flex;
+	flex-direction:row;
+	column-gap:30px;
+	text-align:center;
+}
+.pic1{
+	box-shadow:0px 0px 3px gray;
+	border-radius:5px;
+}
+.pic1:hover{
+	box-shadow:5px 5px 7px gray;
+	border-radius:10px;
+	color:#ee2d68;
+}
+.pic2{
+	box-shadow:0px 0px 3px gray;
+	border-radius:5px;
+}
+.pic2:hover{
+	box-shadow:5px 5px 7px gray;
+	border-radius:10px;
+	color:#ee2d68;
+}
+.pic3{
+	box-shadow:0px 0px 3px gray;
+	border-radius:5px;
+}
+.pic3:hover{
+	box-shadow:5px 5px 7px gray;
+	border-radius:10px;
+	color:#ee2d68;
+}
+.pic4{
+	box-shadow:0px 0px 3px gray;
+	border-radius:5px;
+}
+.pic4:hover{
+	box-shadow:5px 5px 7px gray;
+	border-radius:10px;
+	color:#ee2d68;
+}
+.row2{
+	margin-left:500px;
+	margin-top:50px;
+	display:flex;
+	flex-direction:row;
+	column-gap:30px;
+	text-align:center;
+}
+.pic5{
+	box-shadow:0px 0px 3px gray;
+	border-radius:5px;
+}
+.pic5:hover{
+	box-shadow:5px 5px 7px gray;
+	border-radius:10px;
+	color:#ee2d68;
+}
+.pic6{
+	box-shadow:0px 0px 3px gray;
+	border-radius:5px;
+}
+.pic6:hover{
+	box-shadow:5px 5px 7px gray;
+	border-radius:10px;
+	color:#ee2d68;
+}
+.pic7{
+	box-shadow:0px 0px 3px gray;
+	border-radius:5px;
+}
+.pic7:hover{
+	box-shadow:5px 5px 7px gray;
+	border-radius:10px;
+	color:#ee2d68;
+}
+.pic8{
+	box-shadow:0px 0px 3px gray;
+	border-radius:5px;
+}
+.pic8:hover{
+	box-shadow:5px 5px 7px gray;
+	border-radius:10px;
+	color:#ee2d68;
+}
+.row3{
+	margin-left:500px;
+	margin-top:50px;
+	display:flex;
+	flex-direction:row;
+	column-gap:30px;
+	text-align:center;
+	background-color:#f5f5f5;
+}
+.pic9{
+	box-shadow:0px 0px 3px gray;
+	border-radius:5px;
+}
+.pic9:hover{
+	box-shadow:5px 5px 7px gray;
+	border-radius:10px;
+	color:#ee2d68;
+}
+.pic10{
+	box-shadow:0px 0px 3px gray;
+	border-radius:5px;
+}
+.pic10:hover{
+	box-shadow:5px 5px 7px gray;
+	border-radius:10px;
+	color:#ee2d68;
+}
+.pic11{
+	box-shadow:0px 0px 3px gray;
+	border-radius:5px;
+}
+.pic11:hover{
+	box-shadow:5px 5px 7px gray;
+	border-radius:10px;
+	color:#ee2d68;
+}
+#scroll{
+	background-attachment:no-scroll;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:100%;
+	position:absolute;
+	z-index:3;
+}
+.scroll-1{
+	background:url(https://www.kauveryhospital.com/wp-content/uploads/2023/02/Patient_Stories_3.jpg) no-repeat  scroll center top / cover;
+	min-height:400px;
+	width:100%;
+	text-align:left;
+	color:white;
+	padding:50px;
+	margin:5px !important;
+	transform:scale(.9);
+	transition:.2s	linear;	
+	font-size:15px;		
+	line-height:25px;
+	font-family: "Poppins", sans-serif;
+}
+.patti-btn{
+	margin-top:5px;
+	padding:10px 20px 10px 20px;
+	border-radius:40px;
+	border:solid 2px #ee2d68;
+	background-color:#fff0;
+	color:white;
+	font-family: "Poppins", sans-serif;
+}
+.patti-btn:hover{
+	background-color:#ee2d68;
+}
+.scroll2{
+	background:url(https://www.kauveryhospital.com/wp-content/uploads/2022/10/patient-story-slider1.jpg) no-repeat  scroll center top / cover;
+	min-height:400px;
+	width:100%;
+	text-align:left;
+	color:white;
+	padding:50px;
+	margin:5px !important;
+	transform:scale(.9);
+	transition:.4s	linear;	
+	font-size:15px;		
+	line-height:25px;
+	font-family: "Poppins", sans-serif;
+}
+.scroll3{
+	background:url(https://www.kauveryhospital.com/wp-content/uploads/2023/02/Patient_Stories_2.jpg) no-repeat  scroll center top / cover;
+	min-height:400px;
+	width:100%;	
+	text-align:left;
+	color:white;
+	padding:50px;
+	margin:5px !important;
+	transform:scale(.9);
+	transition:.6s	linear;	
+	font-size:15px;		
+	line-height:25px;
+	font-family: "Poppins", sans-serif;
+}
+.left{
+	margin-top:600px;
+	margin-left:150px;
+}
+.mid{
+	font-family: "Poppins", sans-serif;
+	letter-spacing:1px;
+	font-size:25px; 	
+}
+.mid1{
+	font-size:15px;
+	word-spacing:5px;
+	font-family: "Poppins", sans-serif;
+	color:gray;
+}
+.mid-btn{
+	margin-top:5px;
+	padding:10px 20px 10px 20px;
+	border-radius:40px;
+	border:solid 2px #ee2d68;
+	background-color:#ee2d68;
+	color:white;
+	font-family: "Poppins", sans-serif;
+}
+.mid-btn:hover{
+	background-color:white;
+	color:#ee2d68;
+}
+.mid-right{
+	margin-left:680px;
+	margin-top:-280px;
+	font-family: "Poppins", sans-serif;
+	font-size:18px;
+}
+.hor{
+	margin-top:50px;
+	margin-left:680px;
+	margin-right:500px;
+}
+.mid-right-1{
+	margin-left:1080px;
+	margin-top:-193px;
+	font-family: "Poppins", sans-serif;
+	font-size:18px;
+}
+.hor1{
+	margin-top:50px;
+	margin-left:1080px;
+	margin-right:150px;
+}
+.mid-right-2{
+	margin-left:680px;
+	margin-top:30px;
+	font-family: "Poppins", sans-serif;
+	font-size:18px;
+}
+.hor2{
+	margin-top:50px;
+	margin-left:680px;
+	margin-right:500px;
+}
+.mid-right-3{
+	margin-left:1080px;
+	margin-top:-218px;
+	font-family: "Poppins", sans-serif;
+	font-size:18px;
+}
+.hor3{
+	margin-top:50px;
+	margin-left:1080px;
+	margin-right:150px;
+}
+.mid-right-4{
+	margin-left:690px;
+	margin-top:30px;
+	font-family: "Poppins", sans-serif;
+	font-size:18px;
+}
+.mid-right-5{
+	margin-left:1080px;
+	margin-top:-150px;
+	font-family: "Poppins", sans-serif;
+	font-size:18px;
+}
+.all{
+	background-color:#f5f5f5;
+	font-family: sans-serif;
+	word-spacing:1px;
+	font-size:18px;
+	padding:130px;
+	
+}
+.h-img{
+	margin-top:40px;
+}
+.words{
+	color:black;
+	text-decoration:none;
+}
+.words1{
+	margin-left:35px;
+	margin-top:-22px;
+}
+.words:hover{
+	color:#ee2d68;
+}
+.word-line{
+	margin:30px 900px 25px 7px;
+}
+.second{
+	margin-left:350px;
+	margin-top:-610px;
+}
+.words2{
+	margin-left:45px;
+	margin-top:-27px;
+}
+.word-line1{
+	margin:35px 490px 23px 5px;
+}
+.three{
+	margin-left:1000px;
+	margin-top:-450px;
+}
+.counts{
+	background-color:#e72c68;
+	background-image:url(https://www.kauveryhospital.com/wp-content/themes/KauveryHospital/images/chart.png) ;
+	background-repeat:no-repeat;
+	background-position:right;
+	min-height:200px;
+	margin-top:200px;
+}
+.cnt-row1{
+	margin-bottom:0px;
+	padding-right:250px;
+	font-size:25px;
+	text-align:left;
+	font-family: "Poppins", sans-serif;
+	color:white; 	
+}
+.all-row{
+	padding-top:60px;
+}
+.cnt-row2{
+	color:white;
+	font-size:25px;
+	text-align:left;
+}
