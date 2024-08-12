@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <!--It's a Unequal column split  -->
+        <div class="container-fluid">
+            <div class="row"> <!--split the display using grid imagine display size is 12-- 3,9, 4,8 8,4 2,10 -->
+                <div class="col-xs-5 col-sm-8 col-lg-3 fst" width="100%">
+                    <style>
+                        .fst{
+                            border: 2px solid black;
+                            background-color: brown;
+                            height:250px;
+
+                        }
+
+                    </style>
+                </div>
+                <div class="col-xs-7 col-sm-4 col-lg-9 sec" width="100%">
+                     <style>
+                        .sec{
+                            border: 2px solid black;
+                            background-color: sandybrown;
+                            height:250px;
+
+                        }
+                        
+                    </style>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
