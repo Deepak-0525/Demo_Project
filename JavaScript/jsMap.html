@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Javascript Map</title>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<script>
+			let fruits = new Map([
+				["Apple",100],
+				["Orange",200],
+				["Kiwi",300],
+				["Banana",400],
+				["Mango",500],
+				["Grapes",600]
+			]);
+			document.write(fruits.get("Apple")+"<br>"); // -> this get method in map to get the value from the Map
+			document.write(fruits.has("Kiwi")+"<br>");//-> this has method in map its is used to check the value are into map or not 
+			fruits.set("Straberry",700); // -> this method is used to set or insert the value into the map
+			
+			fruits.delete("Banana");//-> this method for delete specific element or value & key in the map 
+			document.write(fruits.has("Banana")+"<br>");
+			document.write(fruits);
+		</script>
+	</body>
+</html>
