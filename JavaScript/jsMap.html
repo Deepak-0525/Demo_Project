@@ -19,13 +19,34 @@
 				["Mango",500],
 				["Grapes",600]
 			]);
+
+            // -> get()
 			document.write(fruits.get("Apple")+"<br>"); // -> this get method in map to get the value from the Map
+
+            // -> has()
 			document.write(fruits.has("Kiwi")+"<br>");//-> this has method in map its is used to check the value are into map or not 
+
+            // -> set()
 			fruits.set("Straberry",700); // -> this method is used to set or insert the value into the map
 			
+            // -> delete()
 			fruits.delete("Banana");//-> this method for delete specific element or value & key in the map 
+
 			document.write(fruits.has("Banana")+"<br>");
-			document.write(fruits);
+
+            // -> size
+            fruits.size;  // -> it is property of the map & it return number of value in the map
+
+            // -> forEach()
+            fruits.forEach(function(value,key){
+                document.write(key+" "+value+"<br>"); //-> this method  call back for each key/value pair in a map
+            })
+
+            // -> forOf()
+            for(let x of fruits.entries()){
+                
+            }
+
 		</script>
 	</body>
 </html>
