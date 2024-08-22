@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function myFun(){
+            var name = document.myForm.name.value;
+            var password = document.myForm.password.value;
+
+            if(name == ""){
+                alert("Please Enter the Name...!");
+                return false;
+            }else if(password==""){
+                alert("Please Enter thePassword...!");
+                return false;
+            }else if(password.length<6){
+                alert("Password must be above 6 characters");
+                return false;
+            }
+        }
+    </script>
+    <form name="myForm" action="" onsubmit="return myFun()">
+        Name :<input type="text" name="name"><br>
+        Password :<input type="password" name="password"><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>

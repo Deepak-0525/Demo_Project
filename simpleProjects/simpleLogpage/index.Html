@@ -9,17 +9,30 @@
         <title>Basic Html & CSS webpage </title>
     </head>
     <body>
-        <form action="">
+		<script>
+			function validate(){
+				var name = document.myform.name.value;
+				var pwd = document.myform.pwd.value;
+				
+				if(name ==""){
+					alert(Enter your UserName...!);
+					return false;
+				}else if(pwd.length<6){
+					alert("Password must be above 6 Characters");
+					return false;
+				}
+			}
+		</script>
+        <form name="myform" action="" onsubmit="return validate()">
             <h1>LOGIN</h1><br>
             <label>Username</label>
-            <input type="text"><br>
+            <input type="text" name="name" placeholder="Enter Username Or PhonenNo"><br>
             <label>Password</label>
-            <input type="password"><br>
+            <input type="password" name="pwd" placeholder="Enter your Password"><br>
             <button>Submit</button> <br><br>
 
             <a>Forget Password ?</a>
 
-            
         </form>    
 
     </body>

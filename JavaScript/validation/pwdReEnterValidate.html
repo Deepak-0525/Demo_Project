@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function matchPass(){
+            var name = document.myForm.name.value;
+            var fstPwd = document.myForm.password.value;
+            var secPwd = document.myForm.password1.value;
+            if(name == ""){
+               alert("Please Enter the Name...!");
+            }else if(fstPwd == ""){
+                alert("Please Enter the Password...!");
+            }else if(fstPwd.length<8){
+                alert("Password must be above 8 characters...!");
+            }else if(fstPwd == secPwd){
+                return true;
+            }else{
+                alert("password does not match...!");
+                return false;
+            }
+            
+        }
+    </script>
+    <form name="myForm" action="" onsubmit="return matchPass()">
+        Name :<input type="text" name="name"><br>
+        New Password :<input type="password" name="password"><br>
+        Re-Enter Password :<input type="password" name="password1"><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
