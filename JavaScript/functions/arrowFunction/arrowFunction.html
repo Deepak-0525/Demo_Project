@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow Function</title>
+</head>
+<body>
+  
+    <script>
+        // Function with Return has No Arguments
+        // function conert to variable 
+        const myFun = ()=> 20 +20;
+        document.write(myFun() +"<br>");
+
+
+        // Function with Return has Arguments
+        const myfun1 = (a,b) => a+b;
+        document.write(myfun1(10,4) +"<br>");
+
+
+        // Function without Return has Arguments
+        const myfun2 = (a,b) => {
+            let c = a*b;
+            document.write(c +"<br>");
+        }
+        myfun2();
+
+
+        // Function without Return has No Arguments
+        const myfun3 = () =>{document.write(10+23 +"<br>");   
+        // Or
+        a = 23+25;
+        document.write(a +"<br>");
+
+        }
+        myfun3();
+    </script>
+</body>
+</html>
