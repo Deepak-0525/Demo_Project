@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>EMail validation</title>
+    </head>
+    <body>
+        <script>
+            function emailfun()
+            {
+                var email = document.myform.email.value;
+
+                if(email.match( /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/))
+                {
+                    return true;
+                }
+                else{
+                    alert("Incorrect Email");
+                    return false;
+                }
+            }
+        </script>
+        <form name="myform" action="" onsubmit="return emailfun()">
+        Email : <input type="text" name="email"/><br/>
+        <input type="submit">
+
+        </form>
+    </body>
+</html>

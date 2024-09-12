@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>elementbycss</title>
+
+    </head>
+    <body>
+        <h1 style="background-color: aqua;" id="one">Apple</h1>
+        <p id="two" style="display: none;">Content</p>
+        <button onclick="myfun()">Click</button>
+
+        <script>
+            function myfun(){
+                document.getElementById("one").style.backgroundColor="green";
+                document.getElementById("one").style.color="white";
+                document.getElementById("two").style.display="block";
+            }
+        </script>
+    </body>
+</html>
