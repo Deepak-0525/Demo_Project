@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+        function numValidate(){
+            var num = document.myForm.num.value;
+            if (isNaN(num)) {
+                document.getElementById("num").innerHTML = "Enter the Number Only";
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+       function myfun(){
+            alert("Submmited");
+            return true;
+       }
+    </script>
+    <form name="myForm" action="" onsubmit="return numValidate()">
+        Number:<input type="text" name="num"><spam id = "num"></spam><br/>
+        <input type="submit" class="myfun()">
+        
+    </form>
+</body>
+</html>

@@ -1,8 +1,11 @@
 
-import FunComp from './components/FunComp';
+import FunEventHand from './components/FunEventHand';
 
 function App() {
-  return <FunComp/>
+  return (
+   <FunEventHand/>
+
+  )
 }
 
 export default App;
