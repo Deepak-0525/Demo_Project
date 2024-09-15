@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>event sample</title>
+    </head>
+    <body>
+        <input type="text" id="one">
+        <h1>value : <span id="value">---</span></h1>
+        <button onclick="myfun()">Click</button>
+        <script>
+            function myfun()
+            {
+                const a = document.getElementById("one").value;
+                const c = parseInt(a);
+                const b = a+c;
+                document.getElementById(value).innerHTML = b;
+            }
+        </script>
+    </body>
+</html>
